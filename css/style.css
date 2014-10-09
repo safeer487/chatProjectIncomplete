@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #E9EAED;
+	font-family: Tahoma;
+	margin:0px;
+	padding: 0px;
+}
+
+.header{
+	margin-top: 0px;
+	width: 100%;
+	height: 100px;
+	background-color:#FFB300;
+}
+#footer{
+	background: #FFb300;
+	width:100%;
+	height: 20px;
+	position: absolute;
+	bottom: 0;
+	text-align:center;
+}
+div.welcome{
+	float:right;
+	margin-right:350px;
+	margin-top:10px;
+	font-weight: bold;
+}
+span.welcome{
+
+}
+
+a.chatty{
+	font-size:40px;
+	font-weight: bold;
+	margin-left:200px;
+	color:white;
+	text-decoration: none;
+}
+
+.logInForm{
+	width:500px;
+	margin:0 auto;
+	margin-top: 10px;
+	float: right;
+
+}
+
+input[type=submit]{
+	background-color: #FF3333;
+	color:white;
+	font-weight: bold;
+	border-radius: 5px;
+	border-style:none;
+}
+input.signUp{
+	padding: 5px;
+	border-style: none;
+}
+.red{
+	color:#ff0000;
+	font-style: italic;
+	font-weight: bold;
+}
+div.signUpForm{
+	width:250px;
+	float:right;
+	margin-right:250px;
+	
+}
+
+#chatBox{
+	width:700px;
+	height: 450px;
+	margin: auto;
+	margin-top: 50px;
+	background: white;
+	border-style:1px solid white;
+	/*border:2px double #c5c5c5 ;*/
+
+
+}
+#chatMesseges{
+	width:500px;
+	height:400px;
+	border: 2px double #c5c5c5;
+	padding: 5px;
+	overflow: scroll;
+	float:left;
+
+
+}
+#members{
+	width:190px;
+	height:400px;
+	margin-left:10px;
+	float:left;
+	overflow:auto;
+	
+	
+}
+span.members{
+	color:green;
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 20px;
+}
+#chatText{
+	width:500px;
+	padding: 5px;
+	height: 50px;
+	border-style: none;
+	border: 2px double #c5c5c5;
+	border-top-style: none;
+	resize:none;
+}
+#chatText:foucs{outline: none;}
+
+.green{
+	color:green;
+}
+span.names{
+	color:orange;
+	font-weight: bold;
+}
